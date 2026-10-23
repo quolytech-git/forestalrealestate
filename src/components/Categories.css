@@ -1,0 +1,340 @@
+/* ==========================================================================
+   Categories Section - Asymmetric Bento Grid (Framer Homely Replication)
+   ========================================================================== */
+
+.categories-section {
+  position: relative;
+  padding: 72px 0 96px;
+  background-color: var(--color-white);
+  overflow: hidden;
+}
+
+/* Subtle Diagonal Deco Hairlines */
+.categories-bg-deco {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.categories-container {
+  position: relative;
+  z-index: 1;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+/* Unified 12-Column Bento Grid */
+.categories-bento-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 28px;
+  align-items: stretch;
+}
+
+/* --------------------------------------------------------------------------
+   Row 1 - Left: Intro Block (Heading, Subtitle, Green CTA Button)
+   -------------------------------------------------------------------------- */
+.categories-intro-card {
+  grid-column: span 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 48px;
+  padding-bottom: 8px;
+}
+
+.categories-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 22px;
+}
+
+.categories-heading {
+  font-family: var(--font-heading);
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -2.2px;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+  font-optical-sizing: none;
+  font-variation-settings: "opsz" 12;
+}
+
+.categories-subtitle {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #556870;
+  max-width: 480px;
+  margin-bottom: 34px;
+}
+
+.categories-cta-btn {
+  background-color: #07be8a;
+  color: #ffffff;
+  padding: 14px 34px;
+  border-radius: 9999px;
+  font-family: var(--font-heading);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.1px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 16px rgba(7, 190, 138, 0.28);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-optical-sizing: none;
+}
+
+.categories-cta-btn:hover {
+  background-color: #06a779;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(7, 190, 138, 0.38);
+}
+
+.categories-cta-btn:active {
+  transform: translateY(0);
+}
+
+/* --------------------------------------------------------------------------
+   Category Cards Styling & Layout
+   -------------------------------------------------------------------------- */
+.category-card {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: #172023;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 32px;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+  box-shadow: 0 8px 24px rgba(23, 32, 35, 0.06);
+}
+
+.category-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 48px rgba(23, 32, 35, 0.16);
+}
+
+/* Row 1 Right: Residential Homes (Span 6, Height 440px) */
+.category-card-residential {
+  grid-column: span 6;
+  height: 440px;
+}
+
+/* Row 2 Left: Luxury Villas (Wide, Span 6, Height 440px) */
+.category-card-villas {
+  grid-column: span 6;
+  height: 440px;
+}
+
+/* Row 2 Middle: Apartments (Portrait, Span 3, Height 440px) */
+.category-card-apartments {
+  grid-column: span 3;
+  height: 440px;
+}
+
+/* Row 2 Right: Office Spaces (Portrait, Span 3, Height 440px) */
+.category-card-offices {
+  grid-column: span 3;
+  height: 440px;
+}
+
+/* Card Images & Smooth Zoom */
+.category-img-wrap {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.category-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.category-card:hover .category-img {
+  transform: scale(1.05);
+}
+
+/* Gradient Vignette Overlay */
+.category-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(23, 32, 35, 0.0) 25%,
+    rgba(23, 32, 35, 0.35) 55%,
+    rgba(23, 32, 35, 0.88) 100%
+  );
+  transition: background 0.4s ease;
+}
+
+.category-card:hover .category-overlay {
+  background: linear-gradient(
+    180deg,
+    rgba(23, 32, 35, 0.05) 20%,
+    rgba(23, 32, 35, 0.45) 50%,
+    rgba(23, 32, 35, 0.94) 100%
+  );
+}
+
+/* Circular Top-Right Action Arrow Button */
+.category-arrow-circle {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.category-arrow-icon {
+  color: #172023;
+  transition: all 0.3s ease;
+}
+
+.category-card:hover .category-arrow-circle {
+  background-color: #07be8a;
+  transform: translate(2px, -2px);
+  box-shadow: 0 6px 18px rgba(7, 190, 138, 0.35);
+}
+
+.category-card:hover .category-arrow-icon {
+  color: #ffffff;
+  transform: translateX(2px);
+}
+
+/* Text Overlay at Bottom of Card */
+.category-card-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.category-title {
+  font-family: var(--font-heading);
+  font-size: 26px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: -0.4px;
+  line-height: 1.2;
+  font-optical-sizing: none;
+}
+
+.category-desc {
+  font-size: 13.5px;
+  color: rgba(255, 255, 255, 0.84);
+  line-height: 1.5;
+  max-width: 440px;
+}
+
+.category-card-apartments .category-desc,
+.category-card-offices .category-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* --------------------------------------------------------------------------
+   Responsive Breakpoints
+   -------------------------------------------------------------------------- */
+@media (max-width: 1200px) {
+  .categories-heading {
+    font-size: 46px;
+    letter-spacing: -1.6px;
+  }
+
+  .category-card-residential,
+  .category-card-villas {
+    height: 400px;
+  }
+
+  .category-card-apartments,
+  .category-card-offices {
+    height: 400px;
+  }
+}
+
+@media (max-width: 980px) {
+  .categories-section {
+    padding: 56px 0 72px;
+  }
+
+  .categories-container {
+    padding: 0 24px;
+  }
+
+  .categories-intro-card {
+    grid-column: span 12;
+    padding-right: 0;
+    margin-bottom: 12px;
+  }
+
+  .categories-heading {
+    font-size: 40px;
+  }
+
+  .category-card-residential {
+    grid-column: span 12;
+    height: 380px;
+  }
+
+  .category-card-villas {
+    grid-column: span 12;
+    height: 380px;
+  }
+
+  .category-card-apartments {
+    grid-column: span 6;
+    height: 380px;
+  }
+
+  .category-card-offices {
+    grid-column: span 6;
+    height: 380px;
+  }
+}
+
+@media (max-width: 640px) {
+  .categories-heading {
+    font-size: 32px;
+    letter-spacing: -1px;
+  }
+
+  .category-card-residential,
+  .category-card-villas,
+  .category-card-apartments,
+  .category-card-offices {
+    grid-column: span 12;
+    height: 340px;
+    padding: 24px;
+  }
+
+  .category-title {
+    font-size: 22px;
+  }
+}

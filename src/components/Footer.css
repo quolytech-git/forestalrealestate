@@ -1,0 +1,248 @@
+.footer-root {
+  background-color: #172023;
+  color: #ffffff;
+  padding: 80px 0 40px;
+}
+
+.footer-top-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding-bottom: 60px;
+}
+
+.footer-cta-heading {
+  font-size: 44px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.025em;
+  max-width: 600px;
+  line-height: 1.15;
+}
+
+.footer-cta-btn {
+  padding: 16px 36px;
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.footer-divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 64px;
+}
+
+/* Main Grid */
+.footer-main-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 64px;
+  margin-bottom: 64px;
+}
+
+.footer-brand-col {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  max-width: 440px;
+}
+
+.footer-logo {
+  display: inline-block;
+}
+
+.footer-subscribe-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-subscribe-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.footer-subscribe-sub {
+  font-size: 14px;
+  color: #7b8e96;
+  line-height: 1.5;
+}
+
+.footer-subscribe-form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-pill);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 6px 6px 6px 20px;
+  transition: border-color 0.2s ease;
+  margin-top: 8px;
+}
+
+.footer-subscribe-form:focus-within {
+  border-color: var(--color-accent);
+}
+
+.footer-email-input {
+  background: transparent;
+  color: #ffffff;
+  font-size: 15px;
+  width: 100%;
+  padding-right: 12px;
+}
+
+.footer-email-input::placeholder {
+  color: #7b8e96;
+}
+
+.footer-submit-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.25s ease;
+}
+
+.footer-submit-btn:hover {
+  background-color: var(--color-accent);
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.footer-submit-btn.success {
+  background-color: var(--color-accent);
+  color: #ffffff;
+}
+
+.footer-sub-success {
+  font-size: 13px;
+  color: var(--color-accent);
+  font-weight: 500;
+}
+
+/* Links Columns */
+.footer-links-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-col-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.01em;
+}
+
+.footer-links-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-link {
+  font-size: 15px;
+  color: #8b9ca4;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+  display: inline-block;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+  transform: translateX(4px);
+}
+
+.footer-bottom-divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.08);
+  margin-bottom: 32px;
+}
+
+/* Bottom Row */
+.footer-bottom-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #71848c;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.footer-copyright {
+  color: #71848c;
+}
+
+.footer-brand-link {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.footer-brand-link:hover {
+  color: var(--color-accent);
+}
+
+.quolytech-credit {
+  color: #05B881;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.25s ease;
+  text-decoration: underline;
+  text-decoration-color: rgba(5, 184, 129, 0.4);
+  text-underline-offset: 3px;
+}
+
+.quolytech-credit:hover {
+  color: #17e8a9;
+  text-decoration-color: #17e8a9;
+  text-shadow: 0 0 12px rgba(5, 184, 129, 0.5);
+}
+
+
+.footer-legal-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-legal-link {
+  color: #71848c;
+}
+
+.footer-legal-link:hover {
+  color: #ffffff;
+}
+
+.footer-legal-sep {
+  color: #43555c;
+}
+
+@media (max-width: 900px) {
+  .footer-top-cta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .footer-cta-heading {
+    font-size: 32px;
+  }
+
+  .footer-main-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}

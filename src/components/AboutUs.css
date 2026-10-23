@@ -1,0 +1,240 @@
+.about-us-section {
+  padding: 100px 0;
+  background-color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-us-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  gap: 64px;
+  align-items: center;
+}
+
+/* Media Collage Column */
+.about-media-col {
+  position: relative;
+}
+
+.about-main-img-card {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 16px 48px rgba(23, 32, 35, 0.1);
+  aspect-ratio: 4 / 3.4;
+  background-color: #edf2f0;
+}
+
+.about-main-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-experience-badge {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(10px);
+  padding: 16px 22px;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  max-width: 240px;
+}
+
+.exp-num {
+  font-family: var(--font-heading);
+  font-size: 32px;
+  font-weight: 700;
+  color: #05B881;
+  line-height: 1;
+}
+
+.exp-text {
+  font-family: var(--font-heading);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-primary);
+  line-height: 1.35;
+}
+
+.about-secondary-img-card {
+  position: absolute;
+  top: -30px;
+  right: -24px;
+  width: 170px;
+  height: 170px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.15);
+  border: 4px solid #ffffff;
+}
+
+.about-sec-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Content Column */
+.about-content-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-badge {
+  margin-bottom: 16px;
+}
+
+.about-title {
+  font-family: var(--font-heading);
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+  font-optical-sizing: none;
+}
+
+.about-paragraph {
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: #556870;
+  margin-bottom: 18px;
+}
+
+.about-paragraph.lead {
+  font-size: 17px;
+  color: #3e545d;
+  font-weight: 500;
+}
+
+/* Pillars */
+.about-pillars-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin: 16px 0 32px;
+}
+
+.about-pillar-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.pillar-icon-box {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background-color: #f2fcf8;
+  border: 1px solid #d8f5ec;
+  color: #05B881;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.pillar-text-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.pillar-title {
+  font-family: var(--font-heading);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin: 0;
+}
+
+.pillar-desc {
+  font-size: 14px;
+  line-height: 1.55;
+  color: #556870;
+  margin: 0;
+}
+
+/* Action row */
+.about-action-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.about-cta-btn {
+  padding: 13px 28px;
+  border-radius: 100px;
+}
+
+.about-secondary-btn {
+  padding: 13px 26px;
+  border-radius: 100px;
+}
+
+/* Stats Strip */
+.about-stats-strip {
+  margin-top: 72px;
+  padding: 36px 48px;
+  background-color: #f7f9fa;
+  border-radius: 24px;
+  border: 1px solid rgba(23, 32, 35, 0.06);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  text-align: center;
+}
+
+.about-stat-box {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stat-val {
+  font-family: var(--font-heading);
+  font-size: 42px;
+  font-weight: 700;
+  color: #05B881;
+  letter-spacing: -1px;
+}
+
+.stat-lbl {
+  font-size: 14px;
+  font-weight: 600;
+  color: #556870;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .about-us-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+  .about-secondary-img-card {
+    display: none;
+  }
+  .about-stats-strip {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 28px 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-title {
+    font-size: 28px;
+  }
+  .about-stats-strip {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

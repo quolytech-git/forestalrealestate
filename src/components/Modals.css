@@ -1,0 +1,354 @@
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(23, 32, 35, 0.65);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 1050;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow-y: auto;
+}
+
+.modal-card {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  animation: slideUp 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.contact-modal-card {
+  max-width: 580px;
+  padding: 44px;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: rgba(23, 32, 35, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.modal-close-btn:hover {
+  background-color: rgba(23, 32, 35, 0.12);
+  transform: rotate(90deg);
+}
+
+.modal-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-primary);
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+.modal-subtitle {
+  font-size: 15px;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin-bottom: 28px;
+}
+
+/* Form Styles */
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.modal-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.modal-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.modal-form-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.modal-form-input,
+.modal-form-select,
+.modal-form-textarea {
+  background-color: rgba(23, 32, 35, 0.04);
+  border: 1px solid rgba(23, 32, 35, 0.08);
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-size: 14px;
+  color: var(--color-primary);
+  transition: all 0.2s ease;
+}
+
+.modal-form-input:focus,
+.modal-form-select:focus,
+.modal-form-textarea:focus {
+  background-color: #ffffff;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px rgba(7, 190, 138, 0.15);
+}
+
+.modal-submit-btn {
+  margin-top: 8px;
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+}
+
+/* Success State */
+.modal-success-state {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.modal-success-icon-wrap {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: var(--color-accent-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.modal-success-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 12px;
+}
+
+.modal-success-desc {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+/* Property Modal */
+.property-modal-card {
+  max-width: 760px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.property-modal-media {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  background-color: #f0f2f3;
+}
+
+.property-modal-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.property-modal-badge-overlay {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+
+.property-modal-cat {
+  background-color: rgba(23, 32, 35, 0.75);
+  backdrop-filter: blur(8px);
+  color: #ffffff;
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.property-modal-content {
+  padding: 36px 40px;
+}
+
+.property-modal-header-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  gap: 20px;
+}
+
+.property-modal-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-primary);
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+}
+
+.property-modal-loc {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  color: var(--color-text-muted);
+}
+
+.property-modal-price {
+  background-color: var(--color-accent-light);
+  color: var(--color-accent);
+  padding: 8px 18px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-heading);
+  font-size: 20px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.property-modal-specs-bar {
+  display: flex;
+  gap: 24px;
+  padding: 16px 20px;
+  background-color: rgba(23, 32, 35, 0.03);
+  border-radius: 14px;
+  margin-bottom: 24px;
+}
+
+.property-modal-spec {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.property-modal-desc {
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--color-text-muted);
+  margin-bottom: 32px;
+}
+
+.property-modal-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Article Modal */
+.article-modal-card {
+  max-width: 720px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.article-modal-hero {
+  position: relative;
+  width: 100%;
+  height: 320px;
+}
+
+.article-modal-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.article-modal-tag-pill {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  background-color: rgba(23, 32, 35, 0.8);
+  backdrop-filter: blur(8px);
+  color: #ffffff;
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.article-modal-body {
+  padding: 36px 40px;
+}
+
+.article-modal-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--color-text-subtle);
+  margin-bottom: 12px;
+}
+
+.article-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.article-modal-title {
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--color-primary);
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.article-modal-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.article-paragraph {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--color-text-muted);
+}
+
+.article-modal-footer {
+  border-top: 1px solid rgba(23, 32, 35, 0.08);
+  padding-top: 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 640px) {
+  .contact-modal-card,
+  .property-modal-content,
+  .article-modal-body {
+    padding: 28px 20px;
+  }
+
+  .modal-form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .property-modal-header-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .property-modal-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

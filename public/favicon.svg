@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="100 40 1215 1215">
+  <style>
+    .r { fill: #172023; }
+    @media (prefers-color-scheme: dark) { .r { fill: #ffffff; } }
+  </style>
+  <g transform="translate(0,289)">
+    <polygon class="r" points="118,478 452,237 978,483 872,483 453,288 148,478" />
+    <rect class="r" x="740" y="338" width="57" height="62" />
+    <polygon class="r" points="652,334 777,233 1297,483 1183,483 777,286 684,350" />
+    <rect class="r" x="1011" y="316" width="58" height="62" />
+  </g>
+</svg>

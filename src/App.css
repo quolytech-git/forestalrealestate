@@ -1,0 +1,40 @@
+.homely-app {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: var(--color-white);
+}
+
+/* Floating Framer Badge in bottom right corner matching the template */
+.floating-badge-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 990;
+  pointer-events: auto;
+}
+
+.floating-framer-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: var(--radius-pill);
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.08);
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  color: #172023;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.floating-framer-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+}
