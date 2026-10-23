@@ -192,7 +192,7 @@ export default function AboutPage({ onNavigateHome, onNavigateProperties, onOpen
           <div className="about-story-images">
             <div className="about-img-main-card">
               <img 
-                src="https://framerusercontent.com/images/8HTNh4ap2maatw0wkHq9XEIqjHM.jpg" 
+                src="/images/site/8HTNh4ap2maatw0wkHq9XEIqjHM.jpg" 
                 alt="Forest-AL Architectural Masterpiece" 
                 className="about-story-img"
               />
@@ -206,7 +206,7 @@ export default function AboutPage({ onNavigateHome, onNavigateProperties, onOpen
 
             <div className="about-img-sub-card">
               <img 
-                src="https://framerusercontent.com/images/PODFQRwgAeQkguVu6307kqQRvY.jpg" 
+                src="/images/site/PODFQRwgAeQkguVu6307kqQRvY.jpg" 
                 alt="Villa Living in Harmony with Nature" 
                 className="about-story-img"
               />

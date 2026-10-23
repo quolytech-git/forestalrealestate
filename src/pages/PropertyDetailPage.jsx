@@ -39,9 +39,9 @@ export default function PropertyDetailPage({
     ? currentProperty.gallery 
     : [
         currentProperty.image,
-        "https://framerusercontent.com/images/8HTNh4ap2maatw0wkHq9XEIqjHM.jpg",
-        "https://framerusercontent.com/images/PODFQRwgAeQkguVu6307kqQRvY.jpg",
-        "https://framerusercontent.com/images/d8WIpr8sGjaXLg92wgLTYhyryk.jpg"
+        "/images/site/8HTNh4ap2maatw0wkHq9XEIqjHM.jpg",
+        "/images/site/PODFQRwgAeQkguVu6307kqQRvY.jpg",
+        "/images/site/d8WIpr8sGjaXLg92wgLTYhyryk.jpg"
       ];
 
   const [activeMainImg, setActiveMainImg] = useState(gallery[0]);
@@ -369,8 +369,8 @@ export default function PropertyDetailPage({
                     className="property-video-player"
                     aria-label={`Video tour for ${currentProperty.title}`}
                   >
-                    <source src={currentProperty.videoUrl || "https://framerusercontent.com/assets/YBVRytrmInuZC9iFvG4acDpplg.mp4"} type="video/mp4" />
-                    <source src="https://framerusercontent.com/assets/MLWPbW1dUQawJLhhun3dBwpgJak.mp4" type="video/mp4" />
+                    <source src={currentProperty.videoUrl || "/videos/YBVRytrmInuZC9iFvG4acDpplg.mp4"} type="video/mp4" />
+                    <source src="/videos/MLWPbW1dUQawJLhhun3dBwpgJak.mp4" type="video/mp4" />
                     Your browser does not support HTML5 video.
                   </video>
                 </div>
@@ -445,7 +445,7 @@ export default function PropertyDetailPage({
 
                   <div className="testimonial-author-row">
                     <img 
-                      src={currentProperty.testimonial?.avatar || "https://framerusercontent.com/images/5Nt0GP2b2ZiPcgOrUdwFiBwv4o.jpg"} 
+                      src={currentProperty.testimonial?.avatar || "/images/site/5Nt0GP2b2ZiPcgOrUdwFiBwv4o.jpg"} 
                       alt={currentProperty.testimonial?.author || "Emily & John Smith"} 
                       className="testimonial-avatar-img"
                     />

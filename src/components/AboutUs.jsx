@@ -41,7 +41,7 @@ export default function AboutUs({ onOpenContact, onNavigateProperties, onNavigat
           <div className="about-media-col">
             <div className="about-main-img-card">
               <img 
-                src="https://framerusercontent.com/images/8HTNh4ap2maatw0wkHq9XEIqjHM.jpg" 
+                src="/images/site/8HTNh4ap2maatw0wkHq9XEIqjHM.jpg" 
                 alt="Forest-AL Luxury Villa Architecture" 
                 className="about-main-img"
               />
@@ -53,7 +53,7 @@ export default function AboutUs({ onOpenContact, onNavigateProperties, onNavigat
 
             <div className="about-secondary-img-card">
               <img 
-                src="https://framerusercontent.com/images/PODFQRwgAeQkguVu6307kqQRvY.jpg" 
+                src="/images/site/PODFQRwgAeQkguVu6307kqQRvY.jpg" 
                 alt="Forest-AL Nature Villa Living" 
                 className="about-sec-img"
               />

@@ -15,7 +15,7 @@ export const heroData = {
   title: "Futuristic  Haven",
   ctaText: "Get In touch",
   detailsText: "View Details",
-  bgImage: "https://framerusercontent.com/images/RQF4hYp31QUf30rlPAnaeARms8.jpg",
+  bgImage: "/images/site/RQF4hYp31QUf30rlPAnaeARms8.jpg",
   specs: {
     bedrooms: { label: "Bedrooms", count: "4 Bedrooms" },
     pool: { label: "Swingpool", desc: "Private Pool" },
@@ -35,25 +35,25 @@ export const categoriesData = {
       id: "residential-homes",
       title: "Residential Homes",
       description: "Experience elegance and comfort with our exclusive luxury villas, designed for sophisticated living.",
-      image: "https://framerusercontent.com/images/3cSLY6lx4sRYYhJ89lb3ikjRAs.jpg"
+      image: "/images/site/3cSLY6lx4sRYYhJ89lb3ikjRAs.jpg"
     },
     {
       id: "luxury-villas",
       title: "Luxury Villas",
       description: "Experience elegance and comfort with our exclusive luxury villas, designed for sophisticated living.",
-      image: "https://framerusercontent.com/images/8HTNh4ap2maatw0wkHq9XEIqjHM.jpg"
+      image: "/images/site/8HTNh4ap2maatw0wkHq9XEIqjHM.jpg"
     },
     {
       id: "apartments",
       title: "Apartments",
       description: "Experience elegance and comfort with our exclusive luxury villas, designed for sophisticated living.",
-      image: "https://framerusercontent.com/images/d8WIpr8sGjaXLg92wgLTYhyryk.jpg"
+      image: "/images/site/d8WIpr8sGjaXLg92wgLTYhyryk.jpg"
     },
     {
       id: "office-spaces",
       title: "Office Spaces",
       description: "Experience elegance and comfort with our exclusive luxury villas, designed for sophisticated living.",
-      image: "https://framerusercontent.com/images/W21edJxhWMUJJfYM8HvzH1ISTs.jpg"
+      image: "/images/site/W21edJxhWMUJJfYM8HvzH1ISTs.jpg"
     }
   ]
 };
@@ -82,12 +82,12 @@ export const propertiesData = {
       areaNumeric: 120,
       parking: "2 Spaces",
       status: "Featured",
-      image: "https://framerusercontent.com/images/PODFQRwgAeQkguVu6307kqQRvY.jpg",
+      image: "/images/site/PODFQRwgAeQkguVu6307kqQRvY.jpg",
       gallery: [
-        "https://framerusercontent.com/images/PODFQRwgAeQkguVu6307kqQRvY.jpg",
-        "https://framerusercontent.com/images/8HTNh4ap2maatw0wkHq9XEIqjHM.jpg",
-        "https://framerusercontent.com/images/vCDjoJw7SdS59TWVbHKfSZxl3o0.jpg",
-        "https://framerusercontent.com/images/d8WIpr8sGjaXLg92wgLTYhyryk.jpg"
+        "/images/site/PODFQRwgAeQkguVu6307kqQRvY.jpg",
+        "/images/site/8HTNh4ap2maatw0wkHq9XEIqjHM.jpg",
+        "/images/site/vCDjoJw7SdS59TWVbHKfSZxl3o0.jpg",
+        "/images/site/d8WIpr8sGjaXLg92wgLTYhyryk.jpg"
       ],
       description: "Designed for those who seek tranquility without compromising on modern luxury. Features expansive floor-to-ceiling glass, panoramic vistas, and exquisite craftsmanship.",
       keyHighlights: [
@@ -111,7 +111,7 @@ export const propertiesData = {
         quote: "Finding our dream coastal home with Homely was completely effortless. The architectural specifications were 100% accurate, and closing took less than 3 weeks!",
         author: "Marcus & Elena Vance",
         role: "Homeowner",
-        avatar: "https://framerusercontent.com/images/3cSLY6lx4sRYYhJ89lb3ikjRAs.jpg"
+        avatar: "/images/site/3cSLY6lx4sRYYhJ89lb3ikjRAs.jpg"
       }
     },
     {
@@ -132,12 +132,12 @@ export const propertiesData = {
       areaNumeric: 340,
       parking: "2 Spaces",
       status: "Verified",
-      image: "https://framerusercontent.com/images/vCDjoJw7SdS59TWVbHKfSZxl3o0.jpg",
+      image: "/images/site/vCDjoJw7SdS59TWVbHKfSZxl3o0.jpg",
       gallery: [
-        "https://framerusercontent.com/images/vCDjoJw7SdS59TWVbHKfSZxl3o0.jpg",
-        "https://framerusercontent.com/images/8HTNh4ap2maatw0wkHq9XEIqjHM.jpg",
-        "https://framerusercontent.com/images/PODFQRwgAeQkguVu6307kqQRvY.jpg",
-        "https://framerusercontent.com/images/d8WIpr8sGjaXLg92wgLTYhyryk.jpg"
+        "/images/site/vCDjoJw7SdS59TWVbHKfSZxl3o0.jpg",
+        "/images/site/8HTNh4ap2maatw0wkHq9XEIqjHM.jpg",
+        "/images/site/PODFQRwgAeQkguVu6307kqQRvY.jpg",
+        "/images/site/d8WIpr8sGjaXLg92wgLTYhyryk.jpg"
       ],
       description: "Nestled in harmony with natural surroundings, this architectural marvel combines timber accents, ambient hearths, and soaring ceiling structures.",
       keyHighlights: [
@@ -161,7 +161,7 @@ export const propertiesData = {
         quote: "I found my ideal home in no time! The listings were detailed, the photos were accurate, and the whole process felt seamless. Customer service was top-notch, answering all my questions. I will definitely use this platform again in the future!",
         author: "Emily & John Smith",
         role: "Buyer",
-        avatar: "https://framerusercontent.com/images/5Nt0GP2b2ZiPcgOrUdwFiBwv4o.jpg"
+        avatar: "/images/site/5Nt0GP2b2ZiPcgOrUdwFiBwv4o.jpg"
       }
     },
     {
@@ -182,12 +182,12 @@ export const propertiesData = {
       areaNumeric: 180,
       parking: "2 Spaces",
       status: "Featured",
-      image: "https://framerusercontent.com/images/V0Z92cCatziRRQP82YL8FpTFfpw.jpg",
+      image: "/images/site/V0Z92cCatziRRQP82YL8FpTFfpw.jpg",
       gallery: [
-        "https://framerusercontent.com/images/V0Z92cCatziRRQP82YL8FpTFfpw.jpg",
-        "https://framerusercontent.com/images/3cSLY6lx4sRYYhJ89lb3ikjRAs.jpg",
-        "https://framerusercontent.com/images/PODFQRwgAeQkguVu6307kqQRvY.jpg",
-        "https://framerusercontent.com/images/W21edJxhWMUJJfYM8HvzH1ISTs.jpg"
+        "/images/site/V0Z92cCatziRRQP82YL8FpTFfpw.jpg",
+        "/images/site/3cSLY6lx4sRYYhJ89lb3ikjRAs.jpg",
+        "/images/site/PODFQRwgAeQkguVu6307kqQRvY.jpg",
+        "/images/site/W21edJxhWMUJJfYM8HvzH1ISTs.jpg"
       ],
       description: "An elevated urban oasis offering breathtaking sunset horizons, custom Italian kitchen cabinetry, and intelligent home climate control.",
       keyHighlights: [
@@ -211,7 +211,7 @@ export const propertiesData = {
         quote: "The penthouse exceeded all our expectations. The floor-to-ceiling glass and the sunset light are truly magnificent every single evening.",
         author: "Julian & Sarah Sterling",
         role: "Buyer",
-        avatar: "https://framerusercontent.com/images/FJxRBnriAQeWu1yOnA756Akbk4.jpg"
+        avatar: "/images/site/FJxRBnriAQeWu1yOnA756Akbk4.jpg"
       }
     },
     {
@@ -232,12 +232,12 @@ export const propertiesData = {
       areaNumeric: 200,
       parking: "3 Spaces",
       status: "New Listing",
-      image: "https://framerusercontent.com/images/RObrAdqmLwWONkhxOIt7utZPCHY.jpg",
+      image: "/images/site/RObrAdqmLwWONkhxOIt7utZPCHY.jpg",
       gallery: [
-        "https://framerusercontent.com/images/RObrAdqmLwWONkhxOIt7utZPCHY.jpg",
-        "https://framerusercontent.com/images/8HTNh4ap2maatw0wkHq9XEIqjHM.jpg",
-        "https://framerusercontent.com/images/uzPuWZBMzGusfbmmuc5evbvrk.jpg",
-        "https://framerusercontent.com/images/3cSLY6lx4sRYYhJ89lb3ikjRAs.jpg"
+        "/images/site/RObrAdqmLwWONkhxOIt7utZPCHY.jpg",
+        "/images/site/8HTNh4ap2maatw0wkHq9XEIqjHM.jpg",
+        "/images/site/uzPuWZBMzGusfbmmuc5evbvrk.jpg",
+        "/images/site/3cSLY6lx4sRYYhJ89lb3ikjRAs.jpg"
       ],
       description: "Contemporary suburban grandeur with multi-generational living quarters, heated private pool deck, and state-of-the-art security perimeter.",
       keyHighlights: [
@@ -261,7 +261,7 @@ export const propertiesData = {
         quote: "Homely's advisors made finding our family home an unforgettable joy. The accuracy of the listing specs was remarkable.",
         author: "David & Rebecca Chen",
         role: "Homeowner",
-        avatar: "https://framerusercontent.com/images/ndpR47XsLzkG7jIffKOsni29jg.jpg"
+        avatar: "/images/site/ndpR47XsLzkG7jIffKOsni29jg.jpg"
       }
     },
     {
@@ -282,12 +282,12 @@ export const propertiesData = {
       areaNumeric: 90,
       parking: "1 Space",
       status: "Verified",
-      image: "https://framerusercontent.com/images/uzPuWZBMzGusfbmmuc5evbvrk.jpg",
+      image: "/images/site/uzPuWZBMzGusfbmmuc5evbvrk.jpg",
       gallery: [
-        "https://framerusercontent.com/images/uzPuWZBMzGusfbmmuc5evbvrk.jpg",
-        "https://framerusercontent.com/images/vCDjoJw7SdS59TWVbHKfSZxl3o0.jpg",
-        "https://framerusercontent.com/images/PODFQRwgAeQkguVu6307kqQRvY.jpg",
-        "https://framerusercontent.com/images/RObrAdqmLwWONkhxOIt7utZPCHY.jpg"
+        "/images/site/uzPuWZBMzGusfbmmuc5evbvrk.jpg",
+        "/images/site/vCDjoJw7SdS59TWVbHKfSZxl3o0.jpg",
+        "/images/site/PODFQRwgAeQkguVu6307kqQRvY.jpg",
+        "/images/site/RObrAdqmLwWONkhxOIt7utZPCHY.jpg"
       ],
       description: "Sleek minimalist haven engineered for effortless low-maintenance coastal lifestyle, boasting sustainable materials and smart lighting throughout.",
       keyHighlights: [
@@ -311,7 +311,7 @@ export const propertiesData = {
         quote: "The quiet elegance of Whispering Pines is magical. The whole transaction through Homely was the smoothest closing we've ever experienced.",
         author: "Hannah Lindqvist",
         role: "Buyer",
-        avatar: "https://framerusercontent.com/images/5Nt0GP2b2ZiPcgOrUdwFiBwv4o.jpg"
+        avatar: "/images/site/5Nt0GP2b2ZiPcgOrUdwFiBwv4o.jpg"
       }
     },
     {
@@ -332,12 +332,12 @@ export const propertiesData = {
       areaNumeric: 130,
       parking: "6 Spaces",
       status: "Commercial",
-      image: "https://framerusercontent.com/images/Z4NDqhKlZUJlRLqnK1WNthUtpyQ.jpg",
+      image: "/images/site/Z4NDqhKlZUJlRLqnK1WNthUtpyQ.jpg",
       gallery: [
-        "https://framerusercontent.com/images/Z4NDqhKlZUJlRLqnK1WNthUtpyQ.jpg",
-        "https://framerusercontent.com/images/W21edJxhWMUJJfYM8HvzH1ISTs.jpg",
-        "https://framerusercontent.com/images/3cSLY6lx4sRYYhJ89lb3ikjRAs.jpg",
-        "https://framerusercontent.com/images/d8WIpr8sGjaXLg92wgLTYhyryk.jpg"
+        "/images/site/Z4NDqhKlZUJlRLqnK1WNthUtpyQ.jpg",
+        "/images/site/W21edJxhWMUJJfYM8HvzH1ISTs.jpg",
+        "/images/site/3cSLY6lx4sRYYhJ89lb3ikjRAs.jpg",
+        "/images/site/d8WIpr8sGjaXLg92wgLTYhyryk.jpg"
       ],
       description: "A collaborative corporate masterpiece featuring flexible ergonomic floorplans, acoustic insulation, and prime metropolitan business connectivity.",
       keyHighlights: [
@@ -361,7 +361,7 @@ export const propertiesData = {
         quote: "Our firm consolidated our headquarters here. The space has elevated our client meetings tremendously.",
         author: "Arthur Kensington",
         role: "Managing Partner",
-        avatar: "https://framerusercontent.com/images/FJxRBnriAQeWu1yOnA756Akbk4.jpg"
+        avatar: "/images/site/FJxRBnriAQeWu1yOnA756Akbk4.jpg"
       }
     },
     {
@@ -382,12 +382,12 @@ export const propertiesData = {
       areaNumeric: 350,
       parking: "3 Spaces",
       status: "Ultra Luxury",
-      image: "https://framerusercontent.com/images/RQF4hYp31QUf30rlPAnaeARms8.jpg",
+      image: "/images/site/RQF4hYp31QUf30rlPAnaeARms8.jpg",
       gallery: [
-        "https://framerusercontent.com/images/RQF4hYp31QUf30rlPAnaeARms8.jpg",
-        "https://framerusercontent.com/images/8HTNh4ap2maatw0wkHq9XEIqjHM.jpg",
-        "https://framerusercontent.com/images/vCDjoJw7SdS59TWVbHKfSZxl3o0.jpg",
-        "https://framerusercontent.com/images/PODFQRwgAeQkguVu6307kqQRvY.jpg"
+        "/images/site/RQF4hYp31QUf30rlPAnaeARms8.jpg",
+        "/images/site/8HTNh4ap2maatw0wkHq9XEIqjHM.jpg",
+        "/images/site/vCDjoJw7SdS59TWVbHKfSZxl3o0.jpg",
+        "/images/site/PODFQRwgAeQkguVu6307kqQRvY.jpg"
       ],
       description: "Iconic organic modern masterpiece with sweeping desert vistas, infinity pool, custom sculptured canopy, and museum-grade finishes throughout.",
       keyHighlights: [
@@ -411,7 +411,7 @@ export const propertiesData = {
         quote: "Futuristic Haven is not just a residence; it is a museum-grade experience. Homely's concierge service was world-class.",
         author: "Christopher & Vivian Ross",
         role: "Buyer",
-        avatar: "https://framerusercontent.com/images/3cSLY6lx4sRYYhJ89lb3ikjRAs.jpg"
+        avatar: "/images/site/3cSLY6lx4sRYYhJ89lb3ikjRAs.jpg"
       }
     },
     {
@@ -432,12 +432,12 @@ export const propertiesData = {
       areaNumeric: 280,
       parking: "4 Spaces",
       status: "Featured",
-      image: "https://framerusercontent.com/images/3cSLY6lx4sRYYhJ89lb3ikjRAs.jpg",
+      image: "/images/site/3cSLY6lx4sRYYhJ89lb3ikjRAs.jpg",
       gallery: [
-        "https://framerusercontent.com/images/3cSLY6lx4sRYYhJ89lb3ikjRAs.jpg",
-        "https://framerusercontent.com/images/8HTNh4ap2maatw0wkHq9XEIqjHM.jpg",
-        "https://framerusercontent.com/images/vCDjoJw7SdS59TWVbHKfSZxl3o0.jpg",
-        "https://framerusercontent.com/images/PODFQRwgAeQkguVu6307kqQRvY.jpg"
+        "/images/site/3cSLY6lx4sRYYhJ89lb3ikjRAs.jpg",
+        "/images/site/8HTNh4ap2maatw0wkHq9XEIqjHM.jpg",
+        "/images/site/vCDjoJw7SdS59TWVbHKfSZxl3o0.jpg",
+        "/images/site/PODFQRwgAeQkguVu6307kqQRvY.jpg"
       ],
       description: "Architectural tour de force with private waterfront dock, bespoke Italian millwork, wine cellar, and integrated smart-home automation.",
       keyHighlights: [
@@ -461,7 +461,7 @@ export const propertiesData = {
         quote: "The seamless waterfront lifestyle and attention to architectural detail in Modern Luxe Villa are unparalleled. A flawless acquisition experience with Homely.",
         author: "Sebastian & Clara Morales",
         role: "Homeowner",
-        avatar: "https://framerusercontent.com/images/ndpR47XsLzkG7jIffKOsni29jg.jpg"
+        avatar: "/images/site/ndpR47XsLzkG7jIffKOsni29jg.jpg"
       }
     }
   ]
@@ -484,22 +484,22 @@ export const featuredPropertyData = {
   gallery: [
     {
       id: 0,
-      image: "https://framerusercontent.com/images/khBC6qWuDTEc7qN91yiaNT2us.jpg",
+      image: "/images/site/khBC6qWuDTEc7qN91yiaNT2us.jpg",
       alt: "Modern Luxe Villa Exterior Front"
     },
     {
       id: 1,
-      image: "https://framerusercontent.com/images/V7SwTzK3jzge25yAgx6zNe0SRo.jpg",
+      image: "/images/site/V7SwTzK3jzge25yAgx6zNe0SRo.jpg",
       alt: "Modern Luxe Villa Balcony View"
     },
     {
       id: 2,
-      image: "https://framerusercontent.com/images/zk24IcANMxTy54PsrH6wKu7nA.jpg",
+      image: "/images/site/zk24IcANMxTy54PsrH6wKu7nA.jpg",
       alt: "Modern Luxe Villa Interior Lounge"
     },
     {
       id: 3,
-      image: "https://framerusercontent.com/images/ZjRcJnndH617pDdjZGY4LLhcYso.jpg",
+      image: "/images/site/ZjRcJnndH617pDdjZGY4LLhcYso.jpg",
       alt: "Modern Luxe Villa Pool Terrace"
     }
   ]
@@ -514,7 +514,7 @@ export const testimonialsData = {
       quote: "I found my ideal home in no time! The listings were detailed, the photos were accurate, and the whole process felt seamless. Customer service was top-notch, answering all my questions. I will definitely use this platform again in the future!",
       name: "Emily & John Smith",
       role: "Buyer",
-      avatar: "https://framerusercontent.com/images/thRtNFIG6cDo3dpo1SMXFQxLqKo.jpg",
+      avatar: "/images/site/thRtNFIG6cDo3dpo1SMXFQxLqKo.jpg",
       rating: 5
     },
     {
@@ -522,7 +522,7 @@ export const testimonialsData = {
       quote: "I quickly found my dream home! The listings were thorough, the photos were spot-on, and the entire process was smooth. The customer service was outstanding, addressing all my questions with ease. I’ll definitely use this platform again!",
       name: "Sam & Mickay John",
       role: "Buyer",
-      avatar: "https://framerusercontent.com/images/rYfofcnQYLSkVFcJztmy3vPKjIk.jpg",
+      avatar: "/images/site/rYfofcnQYLSkVFcJztmy3vPKjIk.jpg",
       rating: 5
     }
   ]
@@ -540,13 +540,13 @@ export const blogData = {
       title: "Home buying tips",
       date: "Feb 5, 2025",
       tag: "Tip",
-      image: "https://framerusercontent.com/images/g2kUBnLswl92AITTYyItqbdCA.jpg",
+      image: "/images/site/g2kUBnLswl92AITTYyItqbdCA.jpg",
       readTime: "4 min read",
       excerpt: "Buying your first home is an exciting milestone, but it can also feel overwhelming with so many factors to consider. Here are the top five tips for first-time home buyers.",
       author: {
         name: "Arlene McCoy",
         role: "Senior Real Estate Advisor",
-        avatar: "https://framerusercontent.com/images/5Nt0GP2b2ZiPcgOrUdwFiBwv4o.jpg",
+        avatar: "/images/site/5Nt0GP2b2ZiPcgOrUdwFiBwv4o.jpg",
         bio: "Arlene has over 12 years of experience in residential acquisitions, specializing in first-time luxury homebuyers and market valuation strategies."
       },
       contentLead: "Buying your first home is an exciting milestone, but it can also feel overwhelming with so many factors to consider. To help you make informed decisions, here are the top five tips for first-time home buyers to successfully navigate the real estate market.",
@@ -609,13 +609,13 @@ export const blogData = {
       title: "Boost home value",
       date: "Jan 9, 2025",
       tag: "Guides",
-      image: "https://framerusercontent.com/images/6yj35C5ih240PBneN0DyM7sp4IU.jpg",
+      image: "/images/site/6yj35C5ih240PBneN0DyM7sp4IU.jpg",
       readTime: "5 min read",
       excerpt: "Once you own your home, consider making high-impact improvements to substantially increase its market value and everyday enjoyment over time.",
       author: {
         name: "Marcus Vance",
         role: "Architectural & Renovation Consultant",
-        avatar: "https://framerusercontent.com/images/3cSLY6lx4sRYYhJ89lb3ikjRAs.jpg",
+        avatar: "/images/site/3cSLY6lx4sRYYhJ89lb3ikjRAs.jpg",
         bio: "Marcus has spent 15 years advising luxury homeowners on high-ROI renovations, spatial design, and sustainable value appreciation."
       },
       contentLead: "Strategic renovations can dramatically boost your home's equity while elevating your daily living experience. Here are proven, high-return upgrades that contemporary buyers prioritize.",
@@ -661,13 +661,13 @@ export const blogData = {
       title: "Mortgage rates update",
       date: "Dec 19, 2024",
       tag: "Updates",
-      image: "https://framerusercontent.com/images/tB95z97s5tvkGt3IolPCxdB4.jpg",
+      image: "/images/site/tB95z97s5tvkGt3IolPCxdB4.jpg",
       readTime: "3 min read",
       excerpt: "Mortgage rates fluctuate due to economic shifts, inflation, and Federal Reserve policy. Here is what home buyers need to know heading into 2025.",
       author: {
         name: "Elena Rostova",
         role: "Mortgage Capital Director",
-        avatar: "https://framerusercontent.com/images/rYfofcnQYLSkVFcJztmy3vPKjIk.jpg",
+        avatar: "/images/site/rYfofcnQYLSkVFcJztmy3vPKjIk.jpg",
         bio: "Elena analyzes macro-economic lending environments, treasury yields, and consumer credit markets to provide transparent buyer financing intelligence."
       },
       contentLead: "Understanding how benchmark interest rates shape your monthly purchasing power is key to navigating cyclical real estate markets with precision and confidence.",
@@ -703,13 +703,13 @@ export const blogData = {
       title: "Luxury homes defined",
       date: "Jan 1, 2025",
       tag: "Insights",
-      image: "https://framerusercontent.com/images/ZSXw6byIkyZo0bIZxGflIHqNuU.jpg",
+      image: "/images/site/ZSXw6byIkyZo0bIZxGflIHqNuU.jpg",
       readTime: "6 min read",
       excerpt: "Prime location, architectural distinction, world-class amenities, and uncompromising security define modern luxury real estate today.",
       author: {
         name: "Sebastian Cruz",
         role: "Luxury Portfolio Director",
-        avatar: "https://framerusercontent.com/images/ndpR47XsLzkG7jIffKOsni29jg.jpg",
+        avatar: "/images/site/ndpR47XsLzkG7jIffKOsni29jg.jpg",
         bio: "Sebastian curates trophy residences, historic penthouses, and private coastal sanctuaries for discerning international clientele."
       },
       contentLead: "The definition of luxury real estate has evolved from mere square footage into an artful synthesis of privacy, biophilic design, wellness amenities, and architectural individuality.",
@@ -753,13 +753,13 @@ export const blogData = {
       title: "Smart homes future",
       date: "Jan 7, 2025",
       tag: "Insights",
-      image: "https://framerusercontent.com/images/vCDjoJw7SdS59TWVbHKfSZxl3o0.jpg",
+      image: "/images/site/vCDjoJw7SdS59TWVbHKfSZxl3o0.jpg",
       readTime: "4 min read",
       excerpt: "From voice-activated climate control to biometric security and self-learning ecosystems, explore how intelligent tech shapes modern living.",
       author: {
         name: "David Chen",
         role: "Smart Home Tech Architect",
-        avatar: "https://framerusercontent.com/images/5Nt0GP2b2ZiPcgOrUdwFiBwv4o.jpg",
+        avatar: "/images/site/5Nt0GP2b2ZiPcgOrUdwFiBwv4o.jpg",
         bio: "David integrates smart automation, home robotics, and energy-management systems into high-end residential architecture."
       },
       contentLead: "Smart home technology has moved far beyond novel gadgets; it is now the invisible nervous system that manages security, air quality, ambient moods, and energy efficiency.",
@@ -795,13 +795,13 @@ export const blogData = {
       title: "Sell property fast",
       date: "Oct 16, 2024",
       tag: "Advice",
-      image: "https://framerusercontent.com/images/ndpR47XsLzkG7jIffKOsni29jg.jpg",
+      image: "/images/site/ndpR47XsLzkG7jIffKOsni29jg.jpg",
       readTime: "5 min read",
       excerpt: "Expert pricing strategies, professional staging, and targeted digital marketing to attract serious buyers and achieve peak valuation.",
       author: {
         name: "Arlene McCoy",
         role: "Senior Real Estate Advisor",
-        avatar: "https://framerusercontent.com/images/5Nt0GP2b2ZiPcgOrUdwFiBwv4o.jpg",
+        avatar: "/images/site/5Nt0GP2b2ZiPcgOrUdwFiBwv4o.jpg",
         bio: "Arlene McCoy leads premier listing representations, delivering rapid sales cycles and top-dollar contract negotiations."
       },
       contentLead: "Selling your property quickly doesn't mean sacrificing valuation. By orchestrating a disciplined launch strategy, you can create intense buyer competition from day one.",
@@ -838,9 +838,9 @@ export const blogData = {
 export const getInTouchData = {
   title: "Enter a realm where exquisite design and  timeless luxury come together.",
   ctaText: "Get in touch",
-  videoUrl: "https://framerusercontent.com/assets/YBVRytrmInuZC9iFvG4acDpplg.mp4",
-  fallbackVideoUrl: "https://framerusercontent.com/assets/MLWPbW1dUQawJLhhun3dBwpgJak.mp4",
-  posterImage: "https://framerusercontent.com/images/5ILRvlYXf72kHSVHqpa3snGzjU.jpg"
+  videoUrl: "/videos/YBVRytrmInuZC9iFvG4acDpplg.mp4",
+  fallbackVideoUrl: "/videos/MLWPbW1dUQawJLhhun3dBwpgJak.mp4",
+  posterImage: "/images/site/5ILRvlYXf72kHSVHqpa3snGzjU.jpg"
 };
 
 export const marqueeTexts = [
@@ -853,9 +853,9 @@ export const faqData = {
   title: "Everything about Homely homes",
   subtitle: "We know that buying, selling, or investing in real estate can be overwhelming. Here are some frequently asked questions to help guide you through the process.",
   images: [
-    "https://framerusercontent.com/images/5Nt0GP2b2ZiPcgOrUdwFiBwv4o.jpg",
-    "https://framerusercontent.com/images/FJxRBnriAQeWu1yOnA756Akbk4.jpg",
-    "https://framerusercontent.com/images/ndpR47XsLzkG7jIffKOsni29jg.jpg"
+    "/images/site/5Nt0GP2b2ZiPcgOrUdwFiBwv4o.jpg",
+    "/images/site/FJxRBnriAQeWu1yOnA756Akbk4.jpg",
+    "/images/site/ndpR47XsLzkG7jIffKOsni29jg.jpg"
   ],
   questions: [
     {
@@ -910,7 +910,7 @@ export const contactPageData = {
   card: {
     heading: "Contact Information",
     subheading: "Ready to find your dream home or sell your property? We're here to help!",
-    bgImage: "https://framerusercontent.com/images/HPaC6xLT9zaCOwl8b4QkITPFos.jpg",
+    bgImage: "/images/site/HPaC6xLT9zaCOwl8b4QkITPFos.jpg",
     phone: "+1-212-456-7890",
     phoneSecondary: "+1 (800) 555-0199",
     email: "hello@homely.com",
