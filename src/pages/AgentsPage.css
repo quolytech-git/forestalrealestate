@@ -411,6 +411,26 @@
     border-radius: 20px;
     flex-direction: column;
     align-items: stretch;
+    gap: 12px;
+    padding: 12px;
+  }
+  .agents-filter-pills {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .agents-filter-pills::-webkit-scrollbar {
+    display: none;
+  }
+  .agents-filter-pill {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+  .agents-search-box {
+    flex: none;
+    min-width: 0;
+    width: 100%;
   }
   .agents-cards-grid {
     grid-template-columns: 1fr;

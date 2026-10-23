@@ -16,9 +16,15 @@
   font-family: 'Michroma', 'Eurostile', 'Arial', sans-serif;
   font-size: 128px;
   stroke: currentColor;
-  stroke-width: 5px;
+  stroke-width: 10px;
   stroke-linejoin: round;
   transition: fill 0.4s ease, stroke 0.4s ease;
+}
+
+@media (max-width: 768px) {
+  .forestal-logo {
+    height: 34px;
+  }
 }
 
 /* Entrance animations */
